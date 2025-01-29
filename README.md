@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# NYT Most Popular Stories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+NYT Most Popular Stories is the place to get your top trending news.
 
-In the project directory, you can run:
+View application [here](https://nyt-psi.vercel.app/)
 
-### `npm start`
+### Endpoints
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a React application built using the [New York Times API](https://api.nytimes.com/svc/mostpopular/v2/viewed/{period}.json). The Most Popular Stories API Returns an array of the most emailed articles on NYTimes.com for specified period of time (1 day, 7 days, or 30 days).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Endpoints include these section values: 1,7,30
 
-### `npm test`
+These are examples of the API's endpoints:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=sample-key
+https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=sample-key
+https://api.nytimes.com/svc/mostpopular/v2/viewed/30.json?api-key=sample-key
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Latest Article Endpoint
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `/1.json` endpoint gets the articles Most Popular Latest article within 24 hours for the New York Times website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### API Key
 
-### `npm run eject`
+An API key is required to utilize the API. Here's the [instructions](https://developer.nytimes.com/get-started) to get started using the API. Once you create a developer account on New York Times, you'll have to register your application to access the API key.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Project Management Tools
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Test Project system via [GH Projects](https://github.com/lswatson16/nyt/projects/2)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Component Architecture
+  ![Component](https://user-images.githubusercontent.com/93230374/171773442-ba804291-cb60-4c51-9809-7b3dbdff705f.png)
 
-## Learn More
+# Used Methodologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React Router to build a multipage application
+- REST APIs
+- Asynchronous JavaScript(ES6)
+- Acceptance testing & End-to-End (E2E) testing via Cypress
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Deployment
 
-### Code Splitting
+Skip installation by using this deployment link to view the application: [NYT](https://nyt-psi.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The application was deployed using [Vercel](https://www.vercel.com/).
 
-### Analyzing the Bundle Size
+# Installation | Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running follow these simple steps.
 
-### Making a Progressive Web App
+## Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. In your terminal, clone the repository to your local machine
+   ```sh
+   git clone git@github.com:lswatson16/nyt.git
+   ```
+2. `cd` into the root directory
+   ```sh
+   cd nyt
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start the server to view the application in the browser
+   ```sh
+   npm start
+   ```
+   - Runs the app in the development mode.
+   - Open http://localhost:3000 to view it in the browser.
+   - The page will reload if you make edits.
 
-### Advanced Configuration
+## Testing Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Install Cypress
 
-### Deployment
+   ```sh
+   npm i -D cypress
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   or
 
-### `npm run build` fails to minify
+   ```sh
+   npm install cypress --save-dev
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Add this command to your `scripts` in `package.json`
+
+   ```sh
+   "cypress": "cypress open"
+   ```
+
+3. Run cypress tests
+   ```sh
+   npm run cypress
+   ```
+
+# Features
+
+## Pagination for fast load and Smooth User Experience
+
+Since the news feed cann have lots of articles at a time user may get overwhemeled so a organized gallery of artilces is displayed 
+using pagination where only 3 artciles are displayed per column. user can easily navigate through pages using page number selecting date range.
+Current API provides only 20 results but for purpose of huge data this features is very helpful and can be customised as per the need.
+![SearchForm](https://media.giphy.com/media/1yvl9jL9uDEog9N9sA/giphy.gif)
+
+## Article Details
+
+After searching for an article, you can select an article to find out more information. After selecting an article, you will be navigated to a details page. Here you can view additional details such as a link to the New York Times article.
+
+![Details_Page](https://media.giphy.com/media/oiEDfhNsccTEsz0dl5/giphy.gif)
+
+# Future Additions
+
+- Add a favoriting/bookmarking functionality and a bookmarks page
+- Utilize the additional endpoints
+
+# Technologies Used
+
+- React
+- React Router
+- Cypress
+- Javascript
+- HTML
+- CSS
+- React Dev Tools (Chrome Dev Tools)
+
+## Accessibility
+
+Lighthouse (Chrome Dev Tools)
+
+![Screen Shot 2022-06-02 at 2 58 47 PM](https://user-images.githubusercontent.com/93230374/171768104-30201898-8261-4824-9478-d3444ad744b0.png)
+
+# Contributors
+
+- [Hemant D.xsx](https://github.com/lilydev16)
+
+# Credits
+
+- [Create React App](https://create-react-app.dev/)
+- [React](https://reactjs.org/)
+- [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress)
+- [React Router v5](https://v5.reactrouter.com/web/guides/quick-start)

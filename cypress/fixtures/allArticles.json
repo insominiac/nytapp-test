@@ -1,0 +1,243 @@
+[
+    {
+      "uri": "nyt://article/a8c1aa28-d00b-5798-a224-548abb1cca6f",
+      "url": "https://www.nytimes.com/2025/01/20/us/politics/trump-pardons-jan-6.html",
+      "id": 100000009928923,
+      "asset_id": 100000009928923,
+      "source": "New York Times",
+      "published_date": "2025-01-20",
+      "updated": "2025-01-21 09:40:27",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Amnesties, Commutations and Pardons;Storming of the US Capitol (Jan, 2021);United States Politics and Government;Trump, Donald J;Justice Department",
+      "column": null,
+      "byline": "By Alan Feuer",
+      "type": "Article",
+      "title": "Trump Grants Sweeping Clemency to All Jan. 6 Rioters",
+      "abstract": "The extraordinary pardons and commutations extended to those who committed both violent and nonviolent crimes on Jan. 6, including assaulting police officers and seditious conspiracy.",
+      "des_facet": [
+        "Amnesties, Commutations and Pardons",
+        "Storming of the US Capitol (Jan, 2021)",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of President Trump climbing the walls of the Capitol on Jan. 6, 2021.",
+          "copyright": "Jason Andrew for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20dc-j6-pardons01-photo-gbfh/20dc-j6-pardons01-photo-gbfh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20dc-j6-pardons01-photo-gbfh/20dc-j6-pardons01-photo-gbfh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20dc-j6-pardons01-photo-gbfh/20dc-j6-pardons01-photo-gbfh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/5161f73f-c1b1-5fd4-bce2-9eb5f531b763",
+      "url": "https://www.nytimes.com/interactive/2025/01/20/us/politics/trump-inauguration-attendees.html",
+      "id": 100000009933550,
+      "asset_id": 100000009933550,
+      "source": "New York Times",
+      "published_date": "2025-01-20",
+      "updated": "2025-01-21 11:50:37",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Inaugurations;Trump, Donald J",
+      "column": null,
+      "byline": "By Jon Huang, Rebecca Lieberman, Kalina Borkiewicz, Sarah Cahalan, Nick Corasaniti, Bora Erden, Alicia Parlapiano, Amy Schoenfeld Walker, Ashley Wu and Karen Yourish",
+      "type": "Interactive",
+      "title": "A Closer Look at Who Attended President Donald J. Trump’s Second Inauguration",
+      "abstract": "Former presidents, members of Congress, and tech C.E.O.s were among those present to witness Mr. Trump take the oath of office.",
+      "des_facet": [
+        "Inaugurations"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/2024-12-11-inauguration-seating-chart-index/2024-12-11-inauguration-seating-chart-index-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/2024-12-11-inauguration-seating-chart-index/2024-12-11-inauguration-seating-chart-index-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/2024-12-11-inauguration-seating-chart-index/2024-12-11-inauguration-seating-chart-index-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a75610a8-4fa6-5a7c-9df4-25de12c76f43",
+      "url": "https://www.nytimes.com/2025/01/20/us/politics/ramaswamy-doge-ohio-governor.html",
+      "id": 100000009937903,
+      "asset_id": 100000009937903,
+      "source": "New York Times",
+      "published_date": "2025-01-20",
+      "updated": "2025-01-20 22:26:32",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Federal Budget (US);United States Politics and Government;Ramaswamy, Vivek (1985- );Musk, Elon;DeWine, Mike;Government Efficiency Department (US);Ohio",
+      "column": null,
+      "byline": "By Theodore Schleifer and Madeleine Ngo",
+      "type": "Article",
+      "title": "Ramaswamy Will Bow Out of Cost-Cutting Project and Run for Governor in Ohio",
+      "abstract": "The billionaire decided he could not campaign while helping lead the so-called Department of Government Efficiency, but tensions with Elon Musk were also evident.",
+      "des_facet": [
+        "Federal Budget (US)",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Government Efficiency Department (US)"
+      ],
+      "per_facet": [
+        "Ramaswamy, Vivek (1985- )",
+        "Musk, Elon",
+        "DeWine, Mike"
+      ],
+      "geo_facet": [
+        "Ohio"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Vivek Ramaswamy’s position in President Trump’s orbit has been tenuous for weeks as he irritated the president, several of his aides and, crucially, Elon Musk.",
+          "copyright": "Ruth Fremson/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20DC-RAMASWAMY-qjfb/20DC-RAMASWAMY-qjfb-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20DC-RAMASWAMY-qjfb/20DC-RAMASWAMY-qjfb-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/multimedia/20DC-RAMASWAMY-qjfb/20DC-RAMASWAMY-qjfb-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b5397be4-5535-580c-aa46-647be3cfc30a",
+      "url": "https://www.nytimes.com/2025/01/20/opinion/trump-jan-6-pardons.html",
+      "id": 100000009919742,
+      "asset_id": 100000009919742,
+      "source": "New York Times",
+      "published_date": "2025-01-20",
+      "updated": "2025-01-21 08:10:46",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Storming of the US Capitol (Jan, 2021);Amnesties, Commutations and Pardons;Right-Wing Extremism and Alt-Right;Attacks on Police;Trump, Donald J;Biden, Joseph R Jr;Tarrio, Enrique;Lamberth, Royce C;Sicknick, Brian D (1978-2021)",
+      "column": null,
+      "byline": "By The Editorial Board",
+      "type": "Article",
+      "title": "Trump’s Opening Act of Contempt",
+      "abstract": "To open his term with such an act of contempt toward the legal system is audacious, even for Mr. Trump.",
+      "des_facet": [
+        "Storming of the US Capitol (Jan, 2021)",
+        "Amnesties, Commutations and Pardons",
+        "Right-Wing Extremism and Alt-Right",
+        "Attacks on Police"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Biden, Joseph R Jr",
+        "Tarrio, Enrique",
+        "Lamberth, Royce C",
+        "Sicknick, Brian D (1978-2021)"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Rebecca Chew/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/opinion/20pardons-image/20pardons-image-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/opinion/20pardons-image/20pardons-image-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/01/20/opinion/20pardons-image/20pardons-image-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }]
