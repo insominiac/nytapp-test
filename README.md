@@ -4,7 +4,7 @@
 
 NYT Most Popular Stories is the place to get your top trending news.
 
-View application [here](https://nyt-psi.vercel.app/)
+View application [here]()
 
 ### Endpoints
 
@@ -35,7 +35,7 @@ An API key is required to utilize the API. Here's the [instructions](https://dev
 - Test Project system via [GH Projects](https://github.com/insominiac/nyt-test)
 
 - Component Architecture
-  ![Component](https://user-images.githubusercontent.com/93230374/171773442-ba804291-cb60-4c51-9809-7b3dbdff705f.png)
+  ![Component]()
 
 # Used Methodologies
 
