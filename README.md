@@ -32,7 +32,7 @@ An API key is required to utilize the API. Here's the [instructions](https://dev
 
 ### Project Management Tools
 
-- Test Project system via [GH Projects](https://github.com/lswatson16/nyt/projects/2)
+- Test Project system via [GH Projects](https://github.com/insominiac/nyt-test)
 
 - Component Architecture
   ![Component](https://user-images.githubusercontent.com/93230374/171773442-ba804291-cb60-4c51-9809-7b3dbdff705f.png)
@@ -46,7 +46,7 @@ An API key is required to utilize the API. Here's the [instructions](https://dev
 
 # Deployment
 
-Skip installation by using this deployment link to view the application: [NYT](https://nyt-psi.vercel.app/)
+Skip installation by using this deployment link to view the application: [NYT]()
 
 - The application was deployed using [Vercel](https://www.vercel.com/).
 
@@ -58,11 +58,11 @@ To get a local copy up and running follow these simple steps.
 
 1. In your terminal, clone the repository to your local machine
    ```sh
-   git clone git@github.com:lswatson16/nyt.git
+   git clone ghttps://github.com/insominiac/nyt-test.git
    ```
 2. `cd` into the root directory
    ```sh
-   cd nyt
+   cd nyt-test
    ```
 3. Install NPM packages
    ```sh
@@ -106,18 +106,12 @@ To get a local copy up and running follow these simple steps.
 ## Pagination for fast load and Smooth User Experience
 
 Since the news feed cann have lots of articles at a time user may get overwhemeled so a organized gallery of artilces is displayed 
-using pagination where only 3 artciles are displayed per column. user can easily navigate through pages using page number selecting date range.
+using pagination where only 3 articles are displayed per column. user can easily navigate through pages using page number selecting date range.
 Current API provides only 20 results but for purpose of huge data this features is very helpful and can be customised as per the need.
-![SearchForm](https://media.giphy.com/media/1yvl9jL9uDEog9N9sA/giphy.gif)
 
-## Article Details
-
-After searching for an article, you can select an article to find out more information. After selecting an article, you will be navigated to a details page. Here you can view additional details such as a link to the New York Times article.
-
-![Details_Page](https://media.giphy.com/media/oiEDfhNsccTEsz0dl5/giphy.gif)
 
 # Future Additions
-
+- On click for an article, you can select an article to find out more information. After selecting an article, you will be navigated to a details page. Here you can view additional details such as a link to the New York Times article.
 - Add a favoriting/bookmarking functionality and a bookmarks page
 - Utilize the additional endpoints
 
@@ -135,11 +129,11 @@ After searching for an article, you can select an article to find out more infor
 
 Lighthouse (Chrome Dev Tools)
 
-![Screen Shot 2022-06-02 at 2 58 47 PM](https://user-images.githubusercontent.com/93230374/171768104-30201898-8261-4824-9478-d3444ad744b0.png)
+![Screen Shot 2025-01-28 at 2 58 47 PM]('')
 
 # Contributors
 
-- [Hemant D.xsx](https://github.com/lilydev16)
+- [Hemant D.](https://github.com/insominiac)
 
 # Credits
 

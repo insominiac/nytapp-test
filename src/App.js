@@ -1,7 +1,7 @@
 import './App.css';
 import {Route, Routes} from "react-router-dom"
 import Article from './components/Article';
-import ArticlePage from './pages/ArticlePage';
+import RangeForm from './components/Form';
 import Paginationcustom from './components/Pagination';
 import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -83,31 +83,9 @@ function App() {
           
           }}>
           
-          <Box className="range-box" sx={{
-              display: 'flex',
-              flexDirection: {md: 'row' },
-              justifyContent:"flex-start",
-              alignItems: { xs: 'start', md: 'center' },
-              gap: 1,
-              overflow: 'auto',
-            }}>
-            
-            <FormControl variant="standard" className='form'>
-            <InputLabel   aria-label="select" >Date Range</InputLabel>
-
-              <Select
-                id="selectbox"
-                className="range-select-box"
-                value={range}
-                label="previous"
-                onChange={handleChange}
-              >
-                <MenuItem value={1}>Latest</MenuItem>
-                <MenuItem value={7}>Past Week</MenuItem>
-                <MenuItem value={30}>Past Month</MenuItem>
-              </Select>
-            </FormControl>
-            </Box>
+         
+             <RangeForm range={range} handleChange={handleChange}/>
+                         
           
             
             <Box className="page-select-component" sx={{

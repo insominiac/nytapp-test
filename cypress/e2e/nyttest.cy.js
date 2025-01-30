@@ -24,7 +24,7 @@ describe('nyttest.cy.js', () => {
 
       cy.get('footer').should('contain','The New York Times Company')
       cy.get('.pagination-box').should('be.visible')
-      cy.get('.range-box > .form > .range-select-box > #selectbox').should('be.visible').and('contain','Latest')
+      cy.get('.range-box > .form > label > select').should('be.visible').and('contain','Latest')
       cy.get('.page-select-component > button').should('be.visible').and('be.not.disabled')
     })
 
