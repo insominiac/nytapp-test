@@ -128,8 +128,9 @@ Current API provides only 20 results but for purpose of huge data this features 
 ## Accessibility
 
 Lighthouse (Chrome Dev Tools)
+[Screenshot 2025-01-31 at 12 47 41 AM]
+<img width="1792" alt="Screenshot 2025-01-31 at 12 47 41 AM" src="https://github.com/user-attachments/assets/19f02763-81f2-4eee-ab68-b7cbb55c07da" />
 
-![Screen Shot 2025-01-28 at 2 58 47 PM]('')
 
 # Contributors
 
