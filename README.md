@@ -4,7 +4,7 @@
 
 NYT Most Popular Stories is the place to get your top trending news.
 
-View application [here](https://nyt-test-insominiacs-projects.vercel.app/)
+View application [here](https://nytapp-test-kappa.vercel.app/)
 
 ### Endpoints
 
@@ -32,10 +32,9 @@ An API key is required to utilize the API. Here's the [instructions](https://dev
 
 ### Project Management Tools
 
-- Test Project system via [GH Projects](https://github.com/insominiac/nyt-test)
+- Test Project system via [GH Projects](https://github.com/insominiac/nytapp-test)
 
 - Component Architecture
-  ![Component]()
 
 # Used Methodologies
 
@@ -58,11 +57,11 @@ To get a local copy up and running follow these simple steps.
 
 1. In your terminal, clone the repository to your local machine
    ```sh
-   git clone ghttps://github.com/insominiac/nyt-test.git
+   git clone https://github.com/insominiac/nytapp-test.git
    ```
 2. `cd` into the root directory
    ```sh
-   cd nyt-test
+   cd nytapp-test
    ```
 3. Install NPM packages
    ```sh
