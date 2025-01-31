@@ -45,7 +45,7 @@ An API key is required to utilize the API. Here's the [instructions](https://dev
 
 # Deployment
 
-Skip installation by using this deployment link to view the application: [NYT]()
+Skip installation by using this deployment link to view the application: <a target="_blank" href="https://nytapp-test-kappa.vercel.app/">NYT APP</a>
 
 - The application was deployed using [Vercel](https://www.vercel.com/).
 
